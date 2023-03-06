@@ -8,6 +8,8 @@ df = pd.read_csv('california_housing_train.csv')
 
 print(df[df["population"] < 501][["median_house_value"]])
 
+print(df[df["population"] < 3][["households"]])
+
 
 
 
